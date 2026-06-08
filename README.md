@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-The Retro Blaster Mini is a ROM dumping device producted by RetroStage. More information can be found [here](https://retrostage.net/?product=retroblaster-mini-programmer-dumper).
+The Retro Blaster Mini is a ROM dumping device produced by RetroStage. More information can be found [here](https://retrostage.net/?product=retroblaster-mini-programmer-dumper).
 
 The RetroBlaster software is developed specifically for Microsoft Windows platforms (specifically, Microsoft .NET) and does not provide a native Linux version. It is possible to run (and use) the RetroBlaster software on Linux-based operating systems using [WINE](https://www.winehq.org/).
 
