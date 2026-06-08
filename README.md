@@ -20,10 +20,6 @@ The general workflow is the following:
 
 # INSTALLING WINE
 
-Next, install both the `wine` and the `winetricks` packages:
-
-`$ sudo apt -y install wine winetricks`
-
 On some systems (such as Ubuntu 26.04), the WINE environment now defaults to the 64-bit (WOW64) version to the exclusion of 32-bit support. To work around this, force the installation of 32-bit libraries.
 
 Add support for installing 32-bit applications. This is *IMPORTANT* and will be needed later to ensure proper WINE support is available.
