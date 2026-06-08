@@ -45,12 +45,11 @@ Next, set up the Microsoft .NET 4.8 environment using the `winetricks` tool.
 
 `$ WINEARCH=win32 winetricks dotnet48`
 
+# MAPPING THE USB INTERFACE
+
 In order to access the serial port, the WINE environment will also need the `winbind` package to be installed. Install it now.
 
 `$ sudo apt install winbind`
-
-
-# MAPPING THE USB INTERFACE
 
 In order to properly access the serial port, your user will need to be part of the `dialout` group.  You can check your group membership with the following command.
 
