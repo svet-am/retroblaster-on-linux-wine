@@ -82,6 +82,8 @@ You should see an output similar to the screenshot below.
 
 ![DOS devices listing](/img/dosdevices-serial-port.png)
 
+Many devices will be present with names like `ttyS0` or `ttyUSB0`. The RetroBlaster Mini will expose a virtual serial port of the name `ttyACM`.  Most people will only have a single device called `ttyACM0`.  While rare, some other USB virtual serial ports (like on AMD-Xilinx FPGA boards) may also expose a `ttyACM` device. If there is uncertainty about the appropriate port number, unplug the RetroBlaster Mini and check the device list and then plug it in again and compare. Whichever one disappears and reappears during the test is the RetroBlaster Mini.
+
 With this in mind, now you can launch the RetroBlaster software with the following command:
 
 `WINEARCH=win32 wine <path_to_retroblaster_exe>`
